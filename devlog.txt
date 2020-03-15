@@ -1,0 +1,44 @@
+-- BITMAI DEV LOG - Mihai SOLOMON
+
+------ 4-mar-2020
+
+- Started development
+
+------ 10-mar-2020
+
+- Changed block rendering to spritebatches
+-- This way it prerenders to a spritebatch (something like an offscreen canvas in js)
+-- And draws the spritebatch in draw()
+-- I guess it increases the performace
+
+- Need to add lerping thorugg colors for background color also
+-- colors in range (0.3, 0.3, 0.3) so it is not very bright
+
+------ 11-mar-2020 
+
+- Removed Background color lerping
+
+- Added sounds 
+-- Throwing boomerang
+-- Killing enemies
+-- Theme sound
+
+- Added camera shake
+- Added dramatic effect when player dies
+- Added powerups template working
+
+- Need to implement the other powerups
+- Need to add high_score with save to file
+- Need to add a label on main menu with 
+-- High Score
+-- Last Score
+
+------ 12-mar-2020 
+
+
+- Added destroy powerups
+- Added boomerang speed powerup
+
+- Need to convert json map to lua file -- Done!
+
+----- 13-mar-2020
